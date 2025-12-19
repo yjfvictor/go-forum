@@ -1,0 +1,39 @@
+# Compiled files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+*.test
+*.out
+go_forum
+
+# Frontend build artifacts - ignore entire dist directory
+frontend/dist/
+
+# Node modules
+node_modules/
+
+# Data directory (contains credentials and threads)
+data/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+

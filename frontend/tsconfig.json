@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "amd",
+    "lib": ["ES2017", "DOM"],
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
+
